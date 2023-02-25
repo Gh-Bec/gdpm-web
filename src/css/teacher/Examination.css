@@ -1,0 +1,59 @@
+.stulist .table {
+    left: 10%;
+}
+
+.stulist .table .tabledata {
+    width: 985px;
+    height: 92%;
+    margin-left: 3%;
+    top: 2px;
+}
+
+.stulist .table .elpage {
+    left: 2%;
+}
+
+.sellist .toperation .btn {
+    width: 36%;
+    right: 2%;
+}
+
+.sellist .toperation .search {
+    width: 31%;
+}
+
+.exa .ttable .tabledata {
+    width: 1002px !important;
+    margin-left: 11%;
+}
+
+.exa .ttable .text {
+    left: 74%;
+    top: 2%;
+}
+
+.dere .ttable .tabledata {
+    width: 875px !important;
+}
+
+.dere .ttable .text {
+    left: 74%;
+    top: 2%;
+}
+
+.eainfo .ttable .tabledata {
+    width: 1110px;
+    margin-left: 8%;
+}
+
+.eainfo .ttable .text {
+    left: 58%;
+    top: 0%;
+    width: 35%;
+    height: 70%;
+}
+
+.eainfo .ttable .text .el-textarea__inner {
+    height: 300px;
+    max-height: 300px;
+}

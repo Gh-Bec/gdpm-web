@@ -1,0 +1,33 @@
+.bodys {
+    width: 100%;
+    height: 100%;
+    background: rgb(238,239,241);
+    background: radial-gradient(circle, rgba(238,239,241,1) 0%, rgba(249,249,249,1) 100%);
+    position: absolute;
+    text-align: center;
+    margin: auto;
+}
+
+#main8 .stud {
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+#main8 .stud #d-figure {
+    width: 100%;
+    height: 100%;
+}
+
+#main8 .stup {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+#main8 .stup #sp-figure {
+    width: 100%;
+    height: 100%;
+}

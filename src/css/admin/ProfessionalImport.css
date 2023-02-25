@@ -1,0 +1,24 @@
+#main3 .table .tabledata {
+    width: 797px;
+    height: 89%;
+    margin-left: 5%;
+    top: 2%;
+}
+
+#main3 .table .upload {
+    height: 52%;
+    width: 28%;
+    top: 2%;
+    left: 68%;
+}
+
+#main3 .table .imgs {
+    width: 28%;
+    height: 36%;
+    left: 69%;
+    bottom: 9%;
+}
+
+#main3 .table .elpage {
+    left: -1%;
+}

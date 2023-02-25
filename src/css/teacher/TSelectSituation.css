@@ -1,0 +1,66 @@
+#tmain3 .cards {
+    padding: 0% 2% 0 2%;
+    width: 95.9%;
+    height: 95%;
+    position: absolute;
+}
+
+#tmain3 .el-tabs--border-card {
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.cards .card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#tmain3 .el-tabs__header {
+    width: 100%;
+}
+
+#tmain3 .el-tabs__content {
+    width: 100%;
+    height: 99%;
+    position: relative;
+    padding: 0px;
+    background: rgb(238,239,241);
+    background: radial-gradient(circle, rgba(238,239,241,1) 0%, rgba(249,249,249,1) 100%);
+}
+
+#tmain3 .topertion {
+    margin: 14px auto 0px auto;
+}
+
+#tmain3 .topertion .search .fm {
+    top: 6px;
+}
+
+.sp {
+    margin: 10px auto !important;
+    left: 0px !important;
+}
+
+#tmain3 .topertion .search .fm .el-form-item .el-form-item__content .el-button {
+    right: -94%;
+}
+
+#tmain3 .card .table {
+    position: absolute;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#tmain3 .card .table .tabledata {
+    height: 100%;
+    margin-left: 26%;
+    position: relative;
+    top: 2px;
+    width: 662px;
+}
+
+#tmain3 .table .elpage {
+    left: 24.5%;
+}

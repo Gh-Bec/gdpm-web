@@ -1,0 +1,80 @@
+.dmf .dopertion .btn {
+    width: 40%;
+}
+
+.dmf .dtable .tabledata {
+    width: 1166px !important;
+    margin-left: 5%;
+}
+
+.dmf .dtable .text {
+    left: 74%;
+    top: 2%;
+}
+
+.decrep .dtable {
+    width: 100% !important;
+    height: 87% !important;
+}
+
+.decrep .dtable .tabledata {
+    width: 875px !important;
+    margin-left: 5% !important;
+    top: 2%;
+}
+
+.decrep .dtable .text {
+    left: 74%;
+    top: 2%;
+}
+
+.distr .dtable {
+    left: 10% !important;
+}
+
+.distr .dtable .tabledata {
+    width: 1021px !important;
+    height: 92%;
+    margin-left: 2% !important;
+    top: 2px;
+}
+
+.distr .dtable .elpage {
+    left: 1%;
+}
+
+.dcomopen .dtable .tabledata {
+    width: 1096px !important;
+    margin-left: 9%;
+}
+
+.dcomopen .dtable .text {
+    left: 74%;
+    top: 2%;
+}
+
+.dcomopen .dtable .elpage {
+    left: -0.8% !important;
+}
+
+.eainfo .dtable {
+    width: 100% !important;
+    height: 87% !important;
+}
+
+.eainfo .dtable .tabledata {
+    width: 1110px;
+    margin-left: 8%;
+}
+
+.eainfo .dtable .text {
+    left: 58%;
+    top: 0%;
+    width: 35%;
+    height: 70%;
+}
+
+.eainfo .dtable .text .el-textarea__inner {
+    height: 300px;
+    max-height: 300px;
+}

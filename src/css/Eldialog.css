@@ -1,0 +1,43 @@
+#dialog .el-dialog {
+    width: 35%;
+    margin-top: 7vh !important;
+}
+
+#dialog .el-dialog__header {
+    padding: 20px 20px 0px;
+    text-align: left;
+}
+
+#dialog .el-dialog__body {
+    padding: 15px 20px;
+}
+
+#dialog .el-dialog__body .label2 .el-form-item__label {
+    position: relative;
+    right: 14px;
+}
+
+#dialog .el-form-item {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#dialog .el-form-item__label {
+    width: 155px !important;
+}
+
+#dialog .el-input {
+    width: 58%;
+}
+
+#dialog .elselect .el-input {
+    width: 89%;
+}
+
+#dialog .el-dialog__footer {
+    padding: 0px 20px 20px;
+}
+
+#dialog .el-select {
+    width: 65%;
+}

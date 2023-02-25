@@ -1,0 +1,38 @@
+.sdectop .stable .tabledata {
+    width: 875px;
+}
+
+.sdectop .stable .text {
+    left: 74%;
+    top: 2%;
+}
+
+.sdectop .stable .text .el-textarea__inner {
+    height: 260px;
+    max-height: 500px;
+}
+
+.sdectop .el-dialog {
+    text-align: left;
+}
+
+.sdectop .el-dialog__body {
+    padding: 10px 10px 0px 10px;
+}
+
+.sdectop .el-input {
+    width: 84%;
+} 
+
+.sdectop .tera .el-textarea {
+    width: 70.5%;
+}
+
+.sdectop .tera {
+    left: 52px;
+    position: relative;
+}
+
+.sdectop .tera .el-textarea__inner {
+    height: 150px;
+}

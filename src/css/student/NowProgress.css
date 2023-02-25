@@ -1,0 +1,79 @@
+.bodys .nowRefresh {
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+    left: -36%;
+}
+
+.bodys .nowRefresh:hover {
+    cursor: pointer;
+}
+
+.infonow {
+    width: 100%;
+    height: 38%;
+    text-align: center;
+}
+
+.infonow .el-descriptions {
+    padding: 2% 3% 0 3%;
+}
+
+.infonow .el-descriptions [class^="el-icon-"] {
+    margin-right: 6px;
+} 
+
+.infonow .el-descriptions-item__label.is-bordered-label {
+    width: 8%;
+}
+
+.process {
+    width: 100%;
+    height: 55%;
+    text-align: center;
+}
+
+.process .procard {
+    width: 30%;
+    height: 50%;
+    margin: 6px 21px;
+}
+
+.process .procard .title {
+    background: #ccc;
+    color: #ffffff;
+    opacity: 0.6;
+    font-size: 20px;
+    font-family: Avenir-Medium;
+    margin-bottom: 4px;
+    padding: 4px;
+    color: rgb(73,33,152);
+    font-weight: 800;
+}
+
+.process .procard .el-button {
+    width: 100%;
+    height: 20px;
+    margin-top: 4px;
+}
+
+.process .procard .btnd span{
+    margin: auto !important;
+    bottom: 6px;
+    position: relative;
+}
+
+.process .procard .state span {
+    display: inline-block;
+    /* margin: 5px auto; */
+    font-weight: 600;
+}
+
+.state .el-link.el-link--default {
+    display: block;
+}
+
+.state .el-link--inner {
+    width: 84%;
+    /* margin-top: 5px; */
+}

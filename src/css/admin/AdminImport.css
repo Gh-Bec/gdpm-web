@@ -1,0 +1,14 @@
+#main9 .table .tabledata {
+    width: 971px;
+    height: 80%;
+    margin-left: 14%;
+    top: 2%;
+}
+
+#main9 .table .elpage {
+    left: -1.5%;
+}
+
+#main9 .iRefresh {
+    cursor: pointer;
+}

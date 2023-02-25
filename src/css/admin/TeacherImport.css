@@ -1,0 +1,24 @@
+#main4 .table .tabledata {
+    width: 896px;
+    height: 92%;
+    margin-left: 3%;
+    top: 2px;
+}
+
+#main4 .table .upload {
+    height: 52%;
+    width: 24%;
+    top: 2%;
+    left: 74%;
+}
+
+#main4 .table .imgs {
+    width: 25%;
+    height: 32%;
+    left: 73%;
+    bottom: 4%;
+}
+
+#main4 .table .elpage {
+    left: -1.5%;
+}

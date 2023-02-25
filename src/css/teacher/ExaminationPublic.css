@@ -1,0 +1,225 @@
+.bodys{
+    width: 100%;
+    height: 100%;
+    background: rgb(238,239,241);
+    background: radial-gradient(circle, rgba(238,239,241,1) 0%, rgba(249,249,249,1) 100%);
+    position: absolute;
+    text-align: center;
+    margin: auto;
+}
+
+.toperation {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    margin: 10px auto 0px auto;
+}
+
+.toperation .title1 {
+    height: 80%;
+    width: 14%;
+    text-align: center;
+    position: absolute;
+    border-left: 5px solid rgb(73,33,152);
+    left: 22px;
+    box-shadow: 2px 4px 8px 1px rgba(0, 0, 0, 0.2);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.toperation .title1 span {
+    display: inline-block;
+    margin: 15px auto;
+    font-size: 20px;
+    position: relative;
+    opacity: 0.6;
+    font-family: Avenir-Medium;
+    color: rgb(73,33,152);
+}
+
+.toperation .search {
+    position: absolute;
+    text-align: left;
+    height: 80%;
+    width: 30%;
+    left: 26%;
+}
+
+.toperation .search .fm {
+    width: 80%;
+    height: 80%;
+    position: relative;
+    top: 10px;
+    border-radius: 5px;
+}
+
+.toperation .search .fm .el-form-item {
+    margin: 0px;
+    width: 49%;
+}
+
+.toperation .search .fm .el-form-item .el-form-item__content .el-input .el-input__inner {
+    width: 160%;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+}
+
+.toperation .search .fm .el-form-item .el-form-item__content .el-button {
+    position: relative;
+    right: -98%;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+}
+
+.ttable {
+    position: absolute;
+    text-align: left;
+    margin: auto;
+    width: 100%;
+    height: 88%;
+}
+
+.toperation .btn {
+    position: absolute;
+    height: 80%;
+    width: 50%;
+    right: 0%;
+    top: 3px;
+}
+
+.toperation .btn .el-button {
+    margin: 7px 3%;
+}
+
+.ttable .tabledata {
+    position: relative;
+    width: 800px;
+    height: 80%;
+    margin-left: 5%;
+    top: 2%;
+}
+
+.ttable .tabledata .elu {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.ttable .tabledata .elu .el-upload-list {
+    display: none;
+}
+
+.ttable .upload {
+    position: absolute;
+    text-align: center;
+    height: 54%;
+    width: 28%;
+    top: 2%;
+    left: 68%;
+}
+
+.ttable .elpage {
+    margin-top: 8px;
+    position: relative;
+}
+
+.ttable .elpage .page .btn-prev {
+    background-color: #E3E3E3;
+}
+
+.ttable .elpage .page .btn-next {
+    background-color: #E3E3E3;
+}
+
+.ttable .elpage .page .el-pager li {
+    background-color: #E3E3E3;
+}
+
+.ttable .tabledata .el-table th.el-table__cell > .cell {
+    text-align: center;
+}
+
+.ttable .tabledata .el-table td.el-table__cell div {
+    text-align: center;
+}
+
+.ttable .table .upload .el-upload__tip {
+    font-size: 14px;
+    position: absolute;
+    left: 33%;
+}
+
+.ttable .table .upload .el-upload-list {
+    margin-top: 8%;
+}
+
+.ttable .table .upload .el-upload-list__item {
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+}
+
+.ttable .upload .el-upload-dragger {
+    width: 280px;
+}
+
+.ttable .text {
+    position: absolute;
+    float: right;
+    text-align: center;
+    width: 24%;
+    height: 32%;
+    left: 70%;
+    bottom: 8%;
+}
+
+.ttable .text p {
+    color: rgb(73,33,152);
+    font-weight: 600;
+}
+
+.ttable .text .el-textarea__inner {
+    height: 260px;
+    max-height: 500px;
+}
+
+.ttable .elpage {
+    left: -1%;
+}
+
+#bh .el-dialog {
+    text-align: left;
+}
+
+#bh .el-dialog__body {
+    padding: 10px 10px 0px 10px;
+}
+
+#bh .el-input {
+    width: 84%;
+} 
+
+#bh .tera .el-textarea {
+    width: 70.5%;
+}
+
+#bh .tera {
+    left: 52px;
+    position: relative;
+}
+
+#bh .tera .el-textarea__inner {
+    height: 150px;
+}
+
+.el-link.el-link--default {
+    margin: auto 10px;
+    bottom: 1px;
+}
+
+.toperation .title1 .iRefresh:hover {
+    cursor: pointer;
+}

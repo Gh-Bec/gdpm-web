@@ -1,0 +1,47 @@
+#main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    /* background: rgb(29,102,225);
+    background: linear-gradient(180deg, rgba(29,102,225,1) 0%, rgba(13,202,204,1) 100%); */
+    background: rgb(73,33,152);
+    background: linear-gradient(180deg, rgba(73,33,152,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.info {
+    width: 50%;
+    height: 20%;
+    position: relative;
+    left: 25%;
+    top: -7%;
+}
+
+.name {
+    font-family: Avenir-Heavy;
+    font-size: 33px;
+    color: #8064b7;
+    text-align: center;
+    word-break: break-word;
+    margin: 0;
+}
+
+.introduce {
+    opacity: 0.6;
+    font-family: Avenir-Medium;
+    font-size: 24px;
+    color: #2e3034;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.author {
+    opacity: 0.6;
+    font-family: Avenir-Medium;
+    font-size: 14px;
+    color: #2e3034;
+    text-align: center;
+    margin: 20px auto;
+}
+

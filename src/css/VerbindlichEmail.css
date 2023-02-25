@@ -1,0 +1,71 @@
+#emain {
+    width: 100%;
+    height: 100%;
+    background: rgb(238,239,241);
+    background: radial-gradient(circle, rgba(238,239,241,1) 0%, rgba(249,249,249,1) 100%);
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.ecard {
+    margin: 110px auto;
+    width: 36%;
+    height: 56%;
+}
+
+.ecard .el-card__body {
+    margin-top: 32px;
+}
+
+.title {
+    border-bottom: 2px solid #0099ff;
+    width: 88%;
+    height: 50px;
+    position: relative;
+    top: 8%;
+    left: 6%;
+}
+
+.title .text h1 {
+    float: left;
+    color: transparent;
+    background-color : #0099ff;
+    text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+    -webkit-background-clip : text;
+}
+
+.emailinfo {
+    text-align: left;
+}
+
+.emailinfo .ef {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.emailinfo .el-form-item{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 3%;
+}
+
+.lab .el-form-item__label {
+    position: relative;
+    right: 3.5%;
+}
+
+.emailinfo .btn {
+    float: right;
+}
+
+.emailinfo .send {
+    color:#C1C1C1;
+    cursor: default;
+}
+
+.emailinfo .send:hover {
+    color:#0099ff;
+    cursor: pointer;
+}

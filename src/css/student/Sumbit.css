@@ -1,0 +1,71 @@
+.sopertion .iRefresh {
+    font-size: 20px;
+    position: relative;
+}
+
+.sopertion .iRefresh:hover {
+    cursor: pointer;
+}
+
+.tealist .table {
+    left: 10%;
+}
+
+.tealist .table .tabledata {
+    width: 985px;
+    height: 92%;
+    margin-left: 3%;
+    top: 2px;
+}
+
+.tealist .table .elpage {
+    left: 2%;
+}
+
+.hist .table {
+    left: 10%;
+}
+
+.hist .table .tabledata {
+    width: 985px;
+    height: 92%;
+    margin-left: 3%;
+    top: 2px;
+}
+
+.hist .table .elpage {
+    left: 2%;
+}
+
+.scomopen .stable .upload {
+    left: 69%;
+}
+
+.smidf .stable .tabledata {
+    width: 875px;
+}
+
+.smidf .stable .upload {
+    left: 72%;
+}
+
+.smidf .stable .text {
+    left: 74%;
+}
+
+.eainfo .stable .tabledata {
+    width: 1076px;
+    margin-left: 8%;
+}
+
+.eainfo .stable .text {
+    left: 58%;
+    top: 0%;
+    width: 35%;
+    height: 70%;
+}
+
+.eainfo .stable .text .el-textarea__inner {
+    height: 300px;
+    max-height: 300px;
+}

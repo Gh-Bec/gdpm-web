@@ -1,0 +1,91 @@
+#main1 {
+    width: 100%;
+    height: 100%;
+    background: rgb(238,239,241);
+    background: radial-gradient(circle, rgba(238,239,241,1) 0%, rgba(249,249,249,1) 100%);
+    position: absolute;
+    text-align: center;
+    margin: auto;
+}
+
+.steps {
+    position: relative;
+    width: 80%;
+    height: 26%;
+    border-radius: 16px;
+    margin: 30px auto 24px auto;
+    box-shadow: 2px 4px 8px 1px rgba(0, 0, 0, 0.2);
+    transition: all .5s;
+    background-color: #ffffff;
+}
+
+.steps:hover {
+    box-shadow: 0 5px 10px 5px rgba(110,110,110,.4);
+	transform: translateY(-4px);
+    cursor: pointer;
+}
+
+.elsteps {
+    position: relative;
+    top: 30%;
+}
+
+.elsteps .el-step__title {
+    font-size: 18px;
+}
+
+.elsteps .el-step.is-center .el-step__description{
+    padding-left: 1%;
+    width: 100%;
+}
+
+.elsteps .el-step__description {
+    font-size: 15px;
+}
+
+.elsteps .el-step__head.is-finish {
+    color: rgb(73,33,152);
+    border-color: rgb(73,33,152);
+}
+
+.images {
+    height: 65%;
+    width: 100%;
+    position: relative;
+    margin: 6px auto;
+}
+
+.images ul {
+    list-style: none;
+}
+
+.images ul li {
+    display: inline-block;
+    width: 31%;
+    height: 200px;
+    margin: 8px 8px;
+    text-align: center;
+}
+
+.images ul li .image {
+    height: 90%;
+    box-shadow: 2px 4px 8px 1px rgba(0, 0, 0, 0.2);
+    transition: all .5s;
+}
+
+.images ul li .image:hover {
+    box-shadow: 0 5px 10px 5px rgba(110,110,110,.4);
+	transform: translateY(-4px);
+    cursor: pointer;
+}
+
+.images ul li .image img  {
+    width: 100%;
+    height: 100%;
+}
+
+.images ul li span {
+    display: inline-block;
+    color: rgb(73,33,152);
+    margin-top: 6px;
+}

@@ -1,0 +1,28 @@
+#main6 .operation .title1 span {
+    left: 0px;
+}
+
+#main6 .table .tabledata {
+    width: 896px;
+    height: 90%;
+    margin-left: 3%;
+    top: 2px;
+}
+
+#main6 .table .upload {
+    height: 52%;
+    width: 23%;
+    top: 2%;
+    left: 74%;
+}
+
+#main6 .table .imgs {
+    width: 25%;
+    height: 32%;
+    left: 73%;
+    bottom: 4%;
+}
+
+#main6 .table .elpage {
+    left: -1.5%;
+}

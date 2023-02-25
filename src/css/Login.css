@@ -1,0 +1,280 @@
+#main .backgroud .swiper .slide img {
+    width: 100vw; 
+    height: 100vh;
+}
+
+.logo {
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    z-index: 2;
+    width: 20%;
+    height: 20%;
+    float: left;
+}
+
+.logo img {
+    width: 36%;
+}
+
+.login {
+    border-radius: 25px;
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    position: fixed;
+    left: 900px;
+    top: 140px;
+    z-index: 2;
+    opacity: 0.9;
+}
+
+.context {
+    border-bottom: 2px solid #0099ff;
+    width: 440px;
+    height: 50px;
+    position: relative;
+    top: 5%;
+    left: 6%;
+}
+
+.context .text h1 {
+    float: left;
+    color: transparent;
+    background-color : #0099ff;
+    text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+    -webkit-background-clip : text;
+}
+
+.name {
+    margin: 5px;
+    width: 440px;
+    height: 50px;
+    position: relative;
+    top: 45%;
+    line-height: 50px;
+    float: left;
+    z-index: 3;
+}
+
+.name .title {
+    float: left;
+    position: relative;
+    left: 9.5%;
+    font-size: 16px;
+}
+
+.name .title span {
+    color: transparent;
+    background-color : #0099ff;
+    text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+    -webkit-background-clip : text;
+}
+
+.name .el-input {
+    float: left;
+    width: 250px ;
+    height: 40px ;
+    left: 15%;
+}
+
+.passw {
+    margin: 5px;
+    width: 440px;
+    height: 50px;
+    position: relative;
+    top: 48%;
+    line-height: 50px;
+    float: left;
+    z-index: 3;
+}
+
+.passw .title {
+    float: left;
+    position: relative;
+    left: 9.5%;
+    font-size: 16px;
+}
+
+.passw .title span {
+    color: transparent;
+    background-color : #0099ff;
+    text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+    -webkit-background-clip : text;
+}
+
+.passw .el-input {
+    float: left;
+    width: 250px ;
+    height: 40px ;
+    left: 15%;
+}
+
+.verificationcode {
+    margin: 5px;
+    width: 440px;
+    height: 50px;
+    position: relative;
+    top: 46%;
+    line-height: 50px;
+    float: left;
+    z-index: 3;
+}
+
+.verificationcode .title {
+    float: left;
+    position: relative;
+    left: 8%;
+    font-size: 16px;
+}
+
+.verificationcode .title span {
+    color: transparent;
+    background-color : #0099ff;
+    text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+    -webkit-background-clip : text;
+}
+
+.verificationcode .el-input {
+    float: left;
+    width: 140px;
+    height: 40px;
+    left: 12%;
+}
+
+.verificationcode .imagecode {
+    border: 1px solid #C1C1C1;
+    float: right;
+    width: 100px;
+    height: 38px;
+    position: relative;
+    right: 20%;
+    top: 8%;
+}
+
+.flag {
+    color: #0099ff;
+    margin: 5px;
+    width: 440px;
+    height: 38px;
+    position: relative;
+    top: 32%;
+    line-height: 50px;
+}
+
+.btn {
+    width: 440px;
+    height: 60px;
+    position: absolute;
+    top: 79%;
+    left: 6%;
+}
+
+.btn .reg-for {
+    position: relative;
+    width: 440px;
+    height: 25px;
+    right: 4%;
+    top: -20%;
+}
+
+.btn .reg-for ul {
+    list-style-type: none;
+}
+
+.btn .reg-for ul li {
+    float: right;
+    color: #0099ff;
+}
+
+.btn .reg-for ul li span {
+    color:#C1C1C1;
+    cursor: default;
+}
+
+.btn .reg-for ul li span:hover {
+    color:#0099ff;
+    cursor: pointer;
+}
+
+.btn .login-btn {
+    position: relative;
+    width: 300px;
+    height: 30px;
+    left: 15%;
+}
+
+.btn .login-btn .el-button {
+    width: 300px;
+    height: 30px;
+    line-height: 0;
+}
+
+.forgetPassWord .el-dialog__wrapper .el-dialog {
+    width: 37% !important;
+    margin-top: 20vh;
+}
+
+.forgetPassWord .el-dialog__body {
+    padding: 30px 10px 20px 24px;
+}
+
+.forgetPassWord .el-form {
+    text-align: left;
+}
+
+.forgetPassWord .el-dialog__header {
+    text-align: left;
+    padding: 26px 20px 10px;
+}
+
+.forgetPassWord .el-input--suffix .el-input__inner {
+    padding-left: 0px;
+    text-indent: 10px;
+}
+
+.forgetPassWord .el-form-item {
+    width: 60%;
+    position: relative;
+    left: 12%;
+}
+
+.forgetPassWord .el-select {
+    width: 100%;
+}
+
+.forgetPassWord .fop {
+    width: 91%;
+}
+
+.forgetPassWord .sp {
+    width: 30%;
+}
+
+.lab .el-form-item__label {
+    position: relative;
+    right: 2.5%;
+}
+
+.forgetPassWord .el-form--inline .el-form-item {
+    margin-right: 0px;
+}
+
+.forgetPassWord .send {
+    float: right;
+    color:#C1C1C1;
+    cursor: default;
+}
+
+.forgetPassWord .send:hover {
+    color:#0099ff;
+    cursor: pointer;
+}
+
+.forgetPassWord .role {
+    left: 20%;
+}
+
+.forgetPassWord .ro {
+    width: 93%;
+}

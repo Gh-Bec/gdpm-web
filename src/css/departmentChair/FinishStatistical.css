@@ -1,0 +1,20 @@
+.bodys {
+    width: 100%;
+    height: 100%;
+    background: rgb(238,239,241);
+    background: radial-gradient(circle, rgba(238,239,241,1) 0%, rgba(249,249,249,1) 100%);
+    position: absolute;
+    text-align: center;
+    margin: auto;
+}
+
+#dmain11 .pTitle {
+    position: relative;
+    width: 99%;
+    height: 100%;
+}
+
+#dmain11 .pTitle #p-figure {
+    width: 100%;
+    height: 100%;
+}

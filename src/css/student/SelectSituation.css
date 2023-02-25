@@ -1,0 +1,90 @@
+#smain3 .cards {
+    padding: 0% 2% 0 2%;
+    width: 95.9%;
+    height: 95%;
+    position: absolute;
+}
+
+#smain3 .el-tabs--border-card {
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.cards .card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#smain3 .el-tabs__header {
+    width: 100%;
+}
+
+#smain3 .el-tabs__content {
+    width: 100%;
+    height: 99%;
+    position: relative;
+    padding: 0px;
+    background: rgb(238,239,241);
+    background: radial-gradient(circle, rgba(238,239,241,1) 0%, rgba(249,249,249,1) 100%);
+}
+
+#smain3 .sopertion {
+    margin: 14px auto 0px auto;
+}
+
+#smain3 .sopertion .search .fm {
+    top: 6px;
+}
+
+.sp {
+    margin: 10px auto !important;
+    left: 0px !important;
+}
+
+.bodys .cards .sopertion .iRefresh {
+    position: relative;
+    left: 27%;
+    top: 1px;
+    font-size: 20px;
+}
+
+.bodys .cards .sopertion  .iRefresh:hover {
+    cursor: pointer;
+}
+
+#smain3 .sopertion .search .fm .el-form-item .el-form-item__content .el-button {
+    right: -94%;
+}
+
+#smain3 .card .table {
+    position: absolute;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#smain3 .card .table .tabledata {
+    height: 100%;
+    margin-left: 28%;
+    position: relative;
+    top: 2px;
+    width: 642px;
+}
+
+#smain3 .hasInvited .table .elpage {
+    left: 26.5%;
+}
+
+#smain3 .hasRefused .table .elpage {
+    left: 26.5%;
+}
+
+#smain3 .acceptInvit .table .accepttable {
+    width: 866px;
+    margin-left: 20%;
+}
+
+#smain3 .acceptInvit .table .elpage {
+    left: 19%;
+}

@@ -1,0 +1,154 @@
+#main {
+    width: 100%;
+    height: 99.9%;
+    position: absolute;
+}
+
+.header {
+    width: 85%;
+    height: 7%;
+    position: relative;
+    background-color: #303643;
+    float: right;
+}
+
+.header-slot {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.left {
+    width: 15%;
+    height: 100%;
+    position: absolute;
+}
+
+.left .title {
+    position: relative;
+    width: 100%;
+    height: 7%;
+    background-color: #303643;
+    color: #ffffff;
+}
+
+.left .title span {
+    font-size: 18px;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+}
+
+.left .title img {
+    width: 28%;
+    position: relative;
+    bottom: 14%;
+}
+
+.left .side {
+    position: relative;
+    height: 93%;
+}
+
+.left .side .el-menu-item .span2 {
+    display: inline-block;
+    position: relative;
+    left: -6%;
+}
+
+.left .side .el-menu-item .span4 {
+    display: inline-block;
+    position: relative;
+    left: 8%;
+}
+
+.left .side .el-menu-item .span5 {
+    display: inline-block;
+    position: relative;
+    left: 16%;
+}
+
+.left .side .el-menu-item .span6 {
+    display: inline-block;
+    position: relative;
+    left: 22%;
+}
+
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+    width: 100%;
+    min-height: 100%;
+}
+
+.side .el-menu {
+    background-color: #303643;
+    color: rgb(242 242 243);
+    border: none;
+}
+
+.side .el-menu--collapse {
+    height: 100%;
+    width: 27%;
+}
+
+.el-menu--vertical .el-menu--popup-right-start {
+    margin: 0px;
+    background-color: #303643;
+}
+
+.side .el-submenu__title {
+    padding: 0 115px;
+    height: 48px;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.side .el-menu-item-group__title {
+    padding: 0px;
+}
+
+.side .el-menu-item {
+    padding: 0px 90px;
+    color: rgb(255, 255, 255);
+}
+
+.el-menu-item.is-active, .el-menu-item:hover {
+    background-color: #4d576d !important;
+    color: #ffffff;
+}
+
+.side .el-submenu__title i {
+    color: rgb(255, 255, 255);
+}
+
+.side .el-submenu__title:hover, .side .el-submenu__title.is-active {
+    background-color: #4d576d !important;
+    color: #ffffff !important;
+}
+
+.el-menu-item {
+    color: #ffffff;
+}
+
+.el-menu-item-group__title {
+    padding: 0px;
+}
+
+.el-menu--popup {
+    padding: 0%;
+}
+
+.el-menu-item {
+    height: 10% !important;
+    line-height: 45px;
+}
+
+.content { /* left:4%  width:96% */
+    position: absolute;
+    height: 93%;
+    top: 7%;
+    /* left: 15%; */
+    /* width: 85%; */
+    transition: all 0.4s;
+    text-align: center;
+    margin: auto;
+}
