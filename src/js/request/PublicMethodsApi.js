@@ -1,6 +1,6 @@
 import Global from "../global/Global";
 import { MessageBox } from "element-ui";
-import service from "./request";
+import service from "./Request";
 
 var GDPM_FILE = Global.GDPM_FILE;
 var POST_HEADER_DATA = Global.POST_HEADER_DATA;

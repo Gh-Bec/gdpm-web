@@ -1,6 +1,6 @@
 import Global from "../../global/Global";
 import { Message, MessageBox } from "element-ui";
-import service from "../request";
+import service from "../Request";
 
 var GDPM_STUDENT = Global.GDPM_STUDENT;
 var POST_HEADER_URLENCODED = Global.POST_HEADER_URLENCODED;

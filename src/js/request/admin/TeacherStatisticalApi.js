@@ -1,15 +1,9 @@
 import Global from "../../global/Global";
 import { MessageBox } from "element-ui";
-import service from "../request";
+import service from "../Request";
 
 var GDPM_ADMIN = Global.GDPM_ADMIN;
 var TEASTAURL = '/statistical';
-
-/**
- * 修改教师数据
- * @param {*} teacherForm 
- * @returns 
- */
 
 /**
  * 院系人数分布查询

@@ -1,6 +1,6 @@
 import Global from "../../global/Global";
 import { MessageBox, Message } from "element-ui";
-import service from "../request";
+import service from "../Request";
 
 var GDPM_TEACHER = Global.GDPM_TEACHER;
 var GDPM_FILE = Global.GDPM_FILE;

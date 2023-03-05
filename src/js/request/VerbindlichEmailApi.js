@@ -1,5 +1,5 @@
 import Global from '../global/Global';
-import service from './request';
+import service from './Request';
 import { Message, MessageBox } from 'element-ui';
 
 var GDPM_EMAIL = Global.GDPM_EMAIL
