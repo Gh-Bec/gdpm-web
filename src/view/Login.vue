@@ -212,9 +212,9 @@
             that.styleChange.height = window.innerHeight - 5 + "px";  // 屏幕高度 
             that.styleChange.width = window.innerWidth+'px';  // 屏幕宽度 
         },
-        created() {
+        created() { // 进入页面时，自动触发下面的方法
             var that = this;
-            that.handleCaptchaGenerate();
+            // that.handleCaptchaGenerate();
         }
     }
 </script>
